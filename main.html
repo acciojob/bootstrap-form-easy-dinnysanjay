@@ -9,22 +9,31 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<div class="border">
+	
 		<div>
 			<h1 class="d-flex justify-content-center p-4">Internship Form</h1>
 			<form method="get">
+				<div id="first-name-input">
 				<label>First Name</label>
-				<input id="first-name-input" type="text">
+				<input type="text">
+				</div>
 				<br>
+				<div id="last-name-input">
 				<label>Last Name</label>
-				<input id="last-name-input" type="text">
+				<input type="text">
+				</div>
 				<br>
+				<div id="email-input">
 				<label>Email Address</label>
-				<input id="email-input" type="email" placeholder="xyz@abc.com">
+				<input type="email" placeholder="xyz@abc.com">
+				</div>
 				<br>
+				<div id="college-input">
 				<label>College</label>
-				<input id="college-input" type="text">
+				<input type="text">
+				</div>
 				<br>
+				<div>
 				<label>Graduation Year</label>
 				<select>
 					<option>2020</option>
@@ -32,15 +41,22 @@
 					<option>2022</option>
 					<option>2023</option>
 				</select>
+				</div>
 				<br>
+				<div id="roll-no-input">
 				<label>Roll No.</label>
-				<input id="roll-no-input" type="text">
+				<input type="text">
+				</div>
 				<br>
-				
-				<input id="conditions-checkbox" type="checkbox">
+				<div id="conditions-checkbox">
+				<input type="checkbox">
 				<label>Agree to terms and conditions</label>
+				</div>
 				<br>
+				<div class="invalid-feedback"></div>
+				<div>
 				<button class="bg-primary">Submit form</button>
+				</div>
 			</form>
 		</div>
 	</div>
